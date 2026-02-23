@@ -1,11 +1,9 @@
-// swaping number method 1
+// swaping number method 2
 
 let a = 10;
 let b = 20;
-console.log(`Before change a = ${a}`);
-console.log(`Before change b = ${b}`);
-let temp = a;
-a = b;
-b = temp;
-console.log(`After change a = ${a}`);
-console.log(`After change b = ${b}`);
+console.log(a, b);
+a = a + b;
+b = a - b;
+a = a - b;
+console.log(a, b);

@@ -1,5 +1,5 @@
-// sum of two integer
-
-let a = 10;
-let b = 20;
-console.log(`the sum of ${a} and ${b} is`, (a + b));
+// getting values from user with the help of prompt sync
+ 
+let prompt = require('prompt-sync')()
+let age = prompt("Enter your age")
+console.log(`age = ${age}`);

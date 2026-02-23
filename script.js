@@ -1,5 +1,11 @@
-// getting values from user with the help of prompt sync
- 
-let prompt = require('prompt-sync')()
-let age = prompt("Enter your age")
-console.log(`age = ${age}`);
+// swaping number method 1
+
+let a = 10;
+let b = 20;
+console.log(`Before change a = ${a}`);
+console.log(`Before change b = ${b}`);
+let temp = a;
+a = b;
+b = temp;
+console.log(`After change a = ${a}`);
+console.log(`After change b = ${b}`);

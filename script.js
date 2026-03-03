@@ -5,4 +5,3 @@
 // console.log(a, b);
 // [a, b] = [b, a]
 // console.log(a, b);
-

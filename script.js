@@ -1,7 +1,9 @@
-// swaping number with destruchering array method 3
+let a = prompt("enter a number to check your score");
 
-// let a = 10;
-// let b = 20;
-// console.log(a, b);
-// [a, b] = [b, a]
-// console.log(a, b);
+if (a > 20) {
+    console.log(`you are pass your score is ${a}`);
+
+}
+else {
+    console.log(`you are Fail your score is ${a} better luck next time`);
+}
